@@ -16,6 +16,7 @@ public class Main {
        int a = 5;
        int b = 3;
        System.out.print(multiply(a,b));
+       double x = 
 
 
 
@@ -26,14 +27,16 @@ public class Main {
         System.out.println("Hello World");
     }
 
-    public static void helloName(String name) {
-        System.out.println("Hello " + name);
+    public static String helloName(String name) {
+      return "Hello "+ name;
     }
     public static int multiply(int a, int b ){
         int answer = a*b;
         return answer;
     }
-    
+    public static double divide(double x, double y){
+        return x/y;
+    }
 
 
 }
