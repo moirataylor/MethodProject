@@ -17,6 +17,8 @@ public class Main {
        int b = 3;
        System.out.println(multiply(a,b));
        System.out.println(divide(a,b));
+       System.out.println(maxNumber(a,b));
+
 
 
 
@@ -40,7 +42,11 @@ public class Main {
     public static double divide(double a, double b){
         return a/b;
     }
-    
+    public static double maxNumber(double a, double b){
+        if (a < b);
+        return a;
+    }
+  
 
 
 }
