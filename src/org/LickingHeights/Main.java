@@ -8,6 +8,11 @@ public class Main {
         helloWorld();
         int firstNumber,secondNumber;
        String name;
+       String word;
+       String word2;
+       word = "shark";
+       word2 = "head";
+
         Scanner Keyboard;
         Keyboard = new Scanner(System.in);
         System.out.println("name");
@@ -18,6 +23,7 @@ public class Main {
        System.out.println(multiply(a,b));
        System.out.println(divide(a,b));
        System.out.println(maxNumber(a,b));
+
 
 
 
@@ -43,10 +49,17 @@ public class Main {
         return a/b;
     }
     public static double maxNumber(double a, double b){
-        if (a < b);
-        return a;
+        if (a < b) {
+            return a;
+        }
+        else if (a > b){
+            return b;
+        }
+        else return b;
     }
-  
+    public static String changeWord(String word, String word2) {
+      return "BRUH";
+    }
 
 
 }
