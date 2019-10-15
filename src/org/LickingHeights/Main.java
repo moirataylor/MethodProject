@@ -1,30 +1,30 @@
 package org.LickingHeights;
 
 import java.util.Scanner;
+import java.util.concurrent.Callable;
 
 public class Main {
 
     public static void main(String[] args) {
         helloWorld();
-        int firstNumber,secondNumber;
-       String name;
-       String word;
-       String word2;
-       word = "shark";
-       word2 = "head";
-
+        String name;
         Scanner Keyboard;
         Keyboard = new Scanner(System.in);
         System.out.println("name");
         name = Keyboard.nextLine();
-
+        helloName(name);
+        
        int a = 5;
        int b = 3;
        System.out.println(multiply(a,b));
        System.out.println(divide(a,b));
        System.out.println(maxNumber(a,b));
 
-
+        String word;
+        String word2;
+        word = "shark";
+        word2 = "head";
+        changeWord(word,word2);
 
 
 
@@ -58,7 +58,8 @@ public class Main {
         else return b;
     }
     public static String changeWord(String word, String word2) {
-      return "BRUH";
+       System.out.println(word2+word);
+        return word2+word;
     }
 
 
